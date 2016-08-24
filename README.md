@@ -11,7 +11,7 @@ You’ve been asked to implement a RESTFul API micro service that will let its u
 Each team has an id, name and at least two members.
 ```
 {
-    'id': 'asdasdasdd',
+    'id': 1,
     'name': 'Engineering',
     'members': [
         {...}
@@ -22,7 +22,7 @@ Each team has an id, name and at least two members.
 Each team member is a `User` object that should have the following attributes:
 ```
 {
-    'id': 'asdadssdasd',
+    'id': 1,
     'name': 'Mike Waites',
     'email': 'mike@mike.com',
     'company': {...}
@@ -33,7 +33,7 @@ Every User in the service belongs to one company which is made up of the followi
 
 ```
 {
-    'id': 'asdasdasd',
+    'id': 1,
     'name': 'Old St Labs'
 }
 ```
@@ -49,7 +49,7 @@ The service should support the following functionality:
 
 ## Setting up
 
-We've include a simple Dockerfile and basic flask app.py.  You don't have to use these if you'd prefer to run the app in another way.
+We've include a simple Dockerfile and basic flask app.py for you to start adding your code to
 
 assuming you have docker set up and runing you can simple do the following to get started.
 
