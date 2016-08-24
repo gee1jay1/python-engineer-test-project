@@ -1,0 +1,6 @@
+app:
+  build: .
+  volumes:
+    - .:/opt/code
+  ports:
+   - "5000:5000"
